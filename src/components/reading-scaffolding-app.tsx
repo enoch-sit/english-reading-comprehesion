@@ -382,14 +382,6 @@ export function ReadingScaffoldingApp() {
       <div className={`section-panel${activeSection === "overview" ? " active" : ""}`} id="section-overview">
         <div className="narrow">
           <div className="card">
-            <div className="card-title">
-              <span className="icon icon-info"><i className="fas fa-info"></i></span>
-              About This Reading
-            </div>
-            <p className="lead-copy">The reading below is a <strong>webpage of an ice-cream shop</strong>. It has an advertisement and a comments section. Have a quick look at it!</p>
-          </div>
-
-          <div className="card">
             <div className="card-title"><span className="icon icon-bulb"><i className="fas fa-lightbulb"></i></span> Pre-reading Questions</div>
             <ul className="pre-reading-list">
               {OVERVIEW_PRE_READING.map((question) => (
