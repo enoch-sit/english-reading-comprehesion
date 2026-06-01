@@ -1,6 +1,10 @@
 import { promises as fs } from "node:fs";
 import path from "node:path";
 
+const MATERIAL_DIR = process.env.LESSON_MATERIAL_DIR
+  ? path.resolve(process.env.LESSON_MATERIAL_DIR)
+  : path.join(process.cwd(), "..", "material");
+
 export type LessonSection = {
   id: string;
   title: string;
@@ -49,8 +53,6 @@ export type LessonDetail = LessonSummary & {
   sections: LessonSection[];
   studySteps: LessonStudyStep[];
 };
-
-const MATERIAL_DIR = path.join(process.cwd(), "..", "material");
 
 function slugify(value: string) {
   return value
