@@ -1,4 +1,4 @@
-:HL["/_next/static/chunks/0pibabxv5us9h.css","style"]
+:HL["/english-reading-comprehesion/_next/static/chunks/0pibabxv5us9h.css","style"]
 :HL["https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Nunito:wght@400;600;700;800&family=Patrick+Hand&display=swap","style"]
 :HL["https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"lessons","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"cycle-1-reading-1-webpage-ad","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"1XXN_q-6sA6M9tdKJdvaI"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"lessons","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"cycle-1-reading-1-webpage-ad","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"n-v0ldxv0a8OPfzZvp4NP"}

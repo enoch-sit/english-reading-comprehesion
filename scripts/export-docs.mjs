@@ -1,5 +1,5 @@
 import { existsSync } from "node:fs";
-import { cp, mkdir, rm } from "node:fs/promises";
+import { cp, mkdir, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { spawn } from "node:child_process";
@@ -86,6 +86,7 @@ async function copyOutToDocs() {
 
   await mkdir(docsDir, { recursive: true });
   await cp(tempOutDir, docsDir, { recursive: true });
+  await writeFile(path.join(docsDir, ".nojekyll"), "", "utf8");
 }
 
 async function main() {
