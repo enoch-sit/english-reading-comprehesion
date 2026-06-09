@@ -97,14 +97,14 @@ export const QUESTIONS: ReadingQuestion[] = [
     options: [
       { value: "A", label: "14 July" },
       { value: "B", label: "16 July" },
-      { value: "C", label: "19 July" },
-      { value: "D", label: "22 July" },
+      { value: "C", label: "13 July" },
+      { value: "D", label: "24 July" },
     ],
     answer: "B",
     hint: "The special offer runs from 16-22 July. The 'gift' is the free scoop. Check which answer dates fall within this week. 14 July is before the offer starts!",
-    strategy: "Numerical reasoning: Work with dates carefully. The offer is 16-22 July. Check each option: 14 July is before the offer. Options B (16), C (19), and D (22) are all within the range, but B is the answer here.",
+    strategy: "Numerical reasoning: Work with dates carefully. The offer is 16-22 July. Check each option: 13 and 14 July are before the offer starts. 24 July is after the offer ends. Only 16 July is within the range.",
     explanation:
-      "Correct: B. 16 July\n\nThe special offer runs from 16-22 July. 14 July is before the offer period. B (16 July) is within the promotional period and is the correct answer.",
+      "Correct: B. 16 July\n\nThe special offer runs from 16-22 July. 13 and 14 July are before the offer period, and 24 July is after. B (16 July) is the only date within the promotional period.",
     clueIds: ["q3", "q3b"],
   },
   {
